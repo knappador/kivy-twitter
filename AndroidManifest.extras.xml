@@ -1,0 +1,14 @@
+
+      <!-- put this below the main activity intent filter -->
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <!-- EDIT SCHEME AND HOST TO MATCH YOUR OWN!!!!!!!!! -->
+        <data
+            android:scheme="kivy"
+            android:host="twitter" />
+        <!-- DID YOU EDIT IT?    GOOD JOB!-->
+      </intent-filter>
+
+      <!--{%if args.ouya_category %}  ...and so on-->
