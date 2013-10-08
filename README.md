@@ -1,7 +1,8 @@
 kivy-twitter
 =============
 
-Tweet your face off. Take a photo of your face, then tweet it!
+![We can tweet if we want to](/src/images/we_can_tweet_if_we_want_to.png "K power")
+
 
 #### Features
 * oAuth workflow with pretty good UX and retry prompts
